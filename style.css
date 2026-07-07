@@ -1,0 +1,142 @@
+body {
+    font-family: "Inclusive Sans", sans-serif;
+    background-color: #fff;
+    color: #222222;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-right: 20px;
+    color: #222222;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.yellow-card {
+    background-color: #FDFAF4;
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.yellow-card > .card-body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border: none;
+    border-radius: 25px;
+}
+
+.card > .card-body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+}
+
+.image {
+    border-radius: 25px;
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.gallery-scroll-container {
+    max-height: 80vh;
+    overflow-x: hidden;
+    padding-right: 10px;
+    overflow-y: auto;
+}
+
+#paintings-grid, #sculptures-grid {
+    display: block;
+    column-count: 3;
+    column-gap: 1.5rem;
+    margin: 0;
+}
+
+#paintings-grid .col,
+#sculptures-grid .col {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 1rem;
+}
+
+.cursor-pointer:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#galleryModal .modal-content {
+    background-color: #0f0f0f;
+}
+
+.img-lightbox {
+    max-width: 85%;
+    max-height: 75vh;
+    object-fit: contain;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.custom-nav-btn {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 20px;
+    transition: background-color 0.2s ease;
+    border: none;
+}
+
+@media (max-width: 992px) {
+    #paintings-grid, #sculptures-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    #paintings-grid, #sculptures-grid {
+        column-count: 1;
+    }
+}
+
+.gallery-scroll-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.gallery-scroll-container::-webkit-scrollbar-thumb {
+    background: #FFDC77;
+    border-radius: 10px;
+}
