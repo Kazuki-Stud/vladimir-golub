@@ -55,6 +55,11 @@ body {
     border-radius: 25px;
 }
 
+.profile-pic {
+    width: 450px;
+    max-width: 100%;
+}
+
 footer {
     font-size: 0.8rem;
     color: #6c757d;
@@ -74,8 +79,8 @@ footer {
     margin: 0;
 }
 
-#paintings-grid .col,
-#sculptures-grid .col {
+#paintings-grid .col-item,
+#sculptures-grid .col-item {
     display: inline-block;
     width: 100%;
     padding: 0;
@@ -95,6 +100,20 @@ footer {
 
 .cursor-pointer:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    color: inherit;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: grayscale(1);
 }
 
 #galleryModal .modal-content {
@@ -126,9 +145,30 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .row.align-items-center {
+        flex-direction: column;
+    }
+    .about-img-container {
+        margin-bottom: 2rem;
+    }
+    .profile-pic {
+        width: 100%;
+    }
+}
+
 @media (max-width: 576px) {
     #paintings-grid, #sculptures-grid {
         column-count: 1;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .yellow-card > .card-body {
+        padding: 20px;
     }
 }
 

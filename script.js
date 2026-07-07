@@ -33,15 +33,14 @@ function updateUI() {
         if (t[key]) el.innerText = t[key];
     });
 
-    document.getElementById('bio-content').innerHTML = t.bio.map(item => `<p class="text">${item}</p>`).join('');
-
+    document.getElementById('bio-content').innerHTML = t.bio.map(item => `<p class="text mb-3">${item}</p>`).join('');
     document.getElementById('solo-list').innerHTML = t.solo_exhibitions.map(item => `<div class="mb-2 border-bottom pb-1 small">${item}</div>`).join('');
     document.getElementById('major-list').innerHTML = t.major_exhibitions.map(item => `<div class="mb-2 border-bottom pb-1 small">${item}</div>`).join('');
 
     document.getElementById('awards-list').innerHTML = t.awards.map(a => `
         <div class="col-md-4">
-            <h3 class="title fs-4 mb-2">${a.year}</h3>
-            <p class="text">${a.text}</p>
+            <h2 class="title">${a.year}</h2>
+            <span class="text">${a.text}</span>
         </div>`).join('');
 
     document.getElementById('located-list').innerHTML = t.located.map(item => `<div class="col-md-6 mb-2 small">${item}</div>`).join('');
@@ -60,11 +59,10 @@ function initGallery(data) {
         items.forEach((item, i) => {
             const idx = offset + i;
             const div = document.createElement('div');
-            div.className = 'col';
+            div.className = 'col-item';
             div.innerHTML = `
-                <div class="cursor-pointer mb-4" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="${idx}">
+                <div class="cursor-pointer" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="${idx}">
                     <img src="${BASE_URL}w_600,c_limit/${item.id}.jpg" class="img-fluid rounded-4 object-fit-cover shadow-sm">
-                    <div class="mt-2 text-center small text-muted">${item.title !== 'Без названия' ? item.title : ''}</div>
                 </div>`;
             div.onclick = () => bootstrap.Carousel.getOrCreateInstance(document.getElementById('carouselGallery')).to(idx);
             container.appendChild(div);
@@ -80,7 +78,7 @@ function initGallery(data) {
         div.innerHTML = `
             <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100 px-3">
                 <img src="${BASE_URL}${item.id}.jpg" class="img-lightbox" alt="${item.title}">
-                <div class="text-center mt-3 text-white">
+                <div class="text-center mt-3 text-white" style="max-width: 800px;">
                     <h5 class="fw-bold m-0">${item.title}</h5>
                     ${item.comment ? `<p class="small mt-2 opacity-75">${item.comment}</p>` : ''}
                 </div>
