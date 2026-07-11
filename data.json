@@ -860,155 +860,155 @@
                       }
                   ],
     "sculptures":  [
-                       {
-                           "id":  "sculpture_001",
-                           "original_name":  "2025-08-16_11.11.30",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_002",
-                           "original_name":  "2025-08-16_11.18.56",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_003",
-                           "original_name":  "2025-08-16_11.22.53",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_004",
-                           "original_name":  "2025-08-16_11.27.46",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_005",
-                           "original_name":  "2025-08-16_11.33.59",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_006",
-                           "original_name":  "2025-08-16_11.35.51",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_007",
-                           "original_name":  "2025-08-16_11.38.34",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_008",
-                           "original_name":  "2025-08-16_12.02.43",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_009",
-                           "original_name":  "2025-08-16_12.05.46",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_010",
-                           "original_name":  "2025-08-16_12.10.05",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_011",
-                           "original_name":  "2025-08-16_12.13.44",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_012",
-                           "original_name":  "2025-08-16_12.23.39",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_013",
-                           "original_name":  "2025-08-16_12.27.11",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_014",
-                           "original_name":  "2025-08-16_12.28.02",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_015",
-                           "original_name":  "2025-08-16_12.34.30",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_016",
-                           "original_name":  "2025-08-16_12.39.55",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_017",
-                           "original_name":  "2025-08-16_12.40.11",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_018",
-                           "original_name":  "2025-08-16_12.43.15",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_019",
-                           "original_name":  "2025-08-16_12.46.44",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_020",
-                           "original_name":  "2025-08-16_12.48.42",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_021",
-                           "original_name":  "2025-08-16_12.51.10",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_022",
-                           "original_name":  "2025-08-16_12.51.22",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_023",
-                           "original_name":  "2025-08-16_12.53.23",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_024",
-                           "original_name":  "2025-08-16_12.54.34",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       },
-                       {
-                           "id":  "sculpture_025",
-                           "original_name":  "2025-08-16_20.31.24",
-                           "title":  "Без названия",
-                           "comment":  ""
-                       }
-                   ]
+                      {
+                        "id":  "sculpture_001",
+                        "original_name":  "2025-08-16_11.11.30",
+                        "title":  "Объект №1",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_002",
+                        "original_name":  "2025-08-16_11.18.56",
+                        "title":  "Объект №2",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_003",
+                        "original_name":  "2025-08-16_11.22.53",
+                        "title":  "Объект №3",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_004",
+                        "original_name":  "2025-08-16_11.27.46",
+                        "title":  "Объект №4",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_005",
+                        "original_name":  "2025-08-16_11.33.59",
+                        "title":  "Объект №5",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_006",
+                        "original_name":  "2025-08-16_11.35.51",
+                        "title":  "Объект №6",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_007",
+                        "original_name":  "2025-08-16_11.38.34",
+                        "title":  "Объект №7",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_008",
+                        "original_name":  "2025-08-16_12.02.43",
+                        "title":  "Объект №8",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_009",
+                        "original_name":  "2025-08-16_12.05.46",
+                        "title":  "Объект №9",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_010",
+                        "original_name":  "2025-08-16_12.10.05",
+                        "title":  "Объект №10",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_011",
+                        "original_name":  "2025-08-16_12.13.44",
+                        "title":  "Объект №11",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_012",
+                        "original_name":  "2025-08-16_12.23.39",
+                        "title":  "Объект №12",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_013",
+                        "original_name":  "2025-08-16_12.27.11",
+                        "title":  "Объект №13",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_014",
+                        "original_name":  "2025-08-16_12.28.02",
+                        "title":  "Объект №14",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_015",
+                        "original_name":  "2025-08-16_12.34.30",
+                        "title":  "Объект №15",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_016",
+                        "original_name":  "2025-08-16_12.39.55",
+                        "title":  "Объект №16",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_017",
+                        "original_name":  "2025-08-16_12.40.11",
+                        "title":  "Объект №17",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_018",
+                        "original_name":  "2025-08-16_12.43.15",
+                        "title":  "Объект №18",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_019",
+                        "original_name":  "2025-08-16_12.46.44",
+                        "title":  "Объект №19",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_020",
+                        "original_name":  "2025-08-16_12.48.42",
+                        "title":  "Объект №20",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_021",
+                        "original_name":  "2025-08-16_12.51.10",
+                        "title":  "Объект №21",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_022",
+                        "original_name":  "2025-08-16_12.51.22",
+                        "title":  "Объект №22",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_023",
+                        "original_name":  "2025-08-16_12.53.23",
+                        "title":  "Объект №23",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_024",
+                        "original_name":  "2025-08-16_12.54.34",
+                        "title":  "Объект №24",
+                        "comment":  ""
+                      },
+                      {
+                        "id":  "sculpture_025",
+                        "original_name":  "2025-08-16_20.31.24",
+                        "title":  "Объект №25",
+                        "comment":  ""
+                      }
+                    ]
 }
